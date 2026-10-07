@@ -1,0 +1,6 @@
+source model: /Users/alexanderwang/Desktop/md_sims/all_metrics_analysis_221/1e0o_japanese_ricefish/charmm-gui-8225128173/step1_pdbreader.pdb (segment PROC, heavy atoms)
+full FGF: 146 residues
+PROC <- template 1E0O chain A: core = model residues 19-145 (127 res; trimmed N 18, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.90 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR24 ASN27 PHE31 ARG44 SER59 GLU96 ARG97 LEU98 GLU99 ASN101 TYR103 ASN104 LEU118 LYS119 LYS125 GLN134 LYS135 ALA136 PHE139 LEU140 PRO141
+PROD <- template 1E0O chain C: core = model residues 19-145 (127 res; trimmed N 18, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.89 A; N-terminal residues anchored to crystal backbone: none; 19 conserved interface side chains from crystal: TYR24 CYS25 ASN27 PHE31 ARG44 ASP79 GLU96 ARG97 LEU98 GLU99 ASN101 TYR103 ASN104 ASN113 LYS119 THR130 PHE139 LEU140 PRO141
+rotamer fix: PROC:LYS129 rotamer scan -> piercings 0, contacts<2.5A 0
+rotamer fix: PROD:ARG44 rotamer scan -> piercings 0, contacts<2.5A 0

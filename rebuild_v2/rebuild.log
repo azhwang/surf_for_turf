@@ -1,0 +1,78 @@
+1fq9 human              model residues 24-152 (129 res; trimmed N 23, C 2); first HSD, last ALA; 129 aligned CA, identity 98%, core CA RMSD to template 0.52 A; N-terminal residues anchored to crystal backbone: HSD24 PHE25 LYS26; 48 conserved interface side chains from crystal: LYS29 TYR32 LYS34 ASN35 PHE39 ARG52 LYS54 GLN62 LEU63 GLN64 ALA65 GLU66 GLU67 ARG68 VAL70 VAL71 SER72 TYR81 VAL96 PHE101 GLU104 ARG105 LEU106 GLU107 SER108 ASN109 ASN110 TYR111 ASN112 THR113 LEU126 LYS127 ARG128 THR129 TYR132 LYS133 LEU134 LYS137 PRO140 GLN142 LYS143 ALA144 ILE145 LEU146 PHE147 LEU148 PRO149 MET150
+1fq9 human_stab         model residues 25-153 (129 res; trimmed N 24, C 2); first HSD, last ALA; 129 aligned CA, identity 92%, core CA RMSD to template 0.39 A; N-terminal residues anchored to crystal backbone: none; 50 conserved interface side chains from crystal: HSD25 PHE26 ASP28 LYS30 TYR33 LYS35 ASN36 PHE40 ARG53 LYS55 GLN63 LEU64 GLN65 ALA66 GLU67 GLU68 ARG69 VAL71 VAL72 SER73 TYR82 VAL97 PHE102 GLU105 ARG106 LEU107 GLU108 ASN110 ASN111 TYR112 ASN113 THR114 LEU127 LYS128 ARG129 THR130 TYR133 LYS134 LEU135 LYS138 PRO141 GLN143 LYS144 ALA145 ILE146 LEU147 PHE148 LEU149 PRO150 MET151
+1fq9 bovine_stab        model residues 25-153 (129 res; trimmed N 24, C 2); first HSD, last ALA; 129 aligned CA, identity 91%, core CA RMSD to template 0.42 A; N-terminal residues anchored to crystal backbone: HSD25; 48 conserved interface side chains from crystal: PHE26 LYS30 TYR33 LYS35 ASN36 PHE40 ARG53 LYS55 GLN63 LEU64 GLN65 ALA66 GLU67 GLU68 ARG69 VAL71 VAL72 SER73 TYR82 VAL97 PHE102 GLU105 ARG106 LEU107 GLU108 ASN110 ASN111 TYR112 ASN113 THR114 LEU127 LYS128 ARG129 THR130 TYR133 LYS134 LEU135 LYS138 PRO141 GLN143 LYS144 ALA145 ILE146 LEU147 PHE148 LEU149 PRO150 MET151
+1fq9 chinook_salmon     model residues 16-144 (129 res; trimmed N 15, C 2); first ASN, last ALA; 129 aligned CA, identity 77%, core CA RMSD to template 1.26 A; N-terminal residues anchored to crystal backbone: ASN16 PHE17 LYS18; 41 conserved interface side chains from crystal: LYS21 TYR24 LYS26 ASN27 PHE31 ARG44 LYS46 GLN54 LEU55 GLN56 ALA57 VAL63 TYR73 GLU96 ARG97 LEU98 GLU99 SER100 ASN101 ASN102 TYR103 ASN104 THR105 LEU118 LYS119 ARG120 THR121 TYR124 LYS125 LYS129 PRO132 GLN134 LYS135 ALA136 ILE137 LEU138 PHE139 LEU140 PRO141 MET142 SER143
+1fq9 goldfish           model residues 16-144 (129 res; trimmed N 15, C 1); first ASN, last ALA; 129 aligned CA, identity 79%, core CA RMSD to template 0.57 A; N-terminal residues anchored to crystal backbone: ASN16 PHE17 LYS18; 41 conserved interface side chains from crystal: LYS21 ARG22 TYR24 LYS26 ASN27 PHE31 ARG44 LYS46 GLN54 LEU55 GLN56 ALA57 VAL63 TYR73 GLU96 ARG97 LEU98 GLU99 SER100 ASN101 ASN102 TYR103 ASN104 THR105 LEU118 LYS119 ARG120 THR121 TYR124 LYS125 LYS129 PRO132 GLN134 LYS135 ALA136 ILE137 LEU138 PHE139 LEU140 PRO141 MET142
+1fq9 japanese_ricefish  model residues 16-144 (129 res; trimmed N 15, C 2); first ASN, last ALA; 129 aligned CA, identity 74%, core CA RMSD to template 0.54 A; N-terminal residues anchored to crystal backbone: ASN16 TYR17; 39 conserved interface side chains from crystal: LYS21 TYR24 LYS26 ASN27 PHE31 ARG44 LYS46 LEU55 GLN56 ALA57 VAL63 TYR73 GLU96 ARG97 LEU98 GLU99 SER100 ASN101 ASN102 TYR103 ASN104 THR105 LEU118 LYS119 ARG120 THR121 TYR124 LYS125 LYS129 PRO132 GLN134 LYS135 ALA136 ILE137 LEU138 PHE139 LEU140 PRO141 MET142
+1fq9 zebrafish          model residues 15-143 (129 res; trimmed N 14, C 2); first SER, last ALA; 129 aligned CA, identity 78%, core CA RMSD to template 0.59 A; N-terminal residues anchored to crystal backbone: SER15 PHE16 ARG17; 40 conserved interface side chains from crystal: LYS20 TYR23 LYS25 ASN26 PHE30 ARG43 LYS45 GLN53 LEU54 GLN55 ALA56 VAL62 GLU95 ARG96 LEU97 GLU98 SER99 ASN100 ASN101 TYR102 ASN103 THR104 LEU117 LYS118 ARG119 THR120 TYR123 LYS124 LYS128 THR129 PRO131 GLN133 LYS134 ALA135 ILE136 LEU137 PHE138 LEU139 PRO140 MET141
+1e0o human              model residues 27-153 (127 res; trimmed N 26, C 1); first ASP, last LYS; 127 aligned CA, identity 56%, core CA RMSD to template 0.80 A; N-terminal residues anchored to crystal backbone: none; 20 conserved interface side chains from crystal: TYR32 ASN35 PHE39 ARG52 GLU104 ARG105 LEU106 GLU107 ASN109 TYR111 ASN112 LEU126 LYS127 LYS133 GLN142 LYS143 ALA144 PHE147 LEU148 PRO149
+1e0o human_stab         model residues 28-154 (127 res; trimmed N 27, C 1); first ASP, last LYS; 127 aligned CA, identity 58%, core CA RMSD to template 0.84 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR33 ASN36 PHE40 ARG53 GLU105 ARG106 LEU107 GLU108 GLU109 ASN110 TYR112 ASN113 LEU127 LYS128 LYS134 GLN143 LYS144 ALA145 PHE148 LEU149 PRO150
+1e0o bovine_stab        model residues 28-154 (127 res; trimmed N 27, C 1); first ASP, last LYS; 127 aligned CA, identity 59%, core CA RMSD to template 0.87 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR33 ASN36 PHE40 ARG53 GLU105 ARG106 LEU107 GLU108 GLU109 ASN110 TYR112 ASN113 LEU127 LYS128 LYS134 GLN143 LYS144 ALA145 PHE148 LEU149 PRO150
+1e0o chinook_salmon     model residues 19-145 (127 res; trimmed N 18, C 1); first GLU, last ARG; 127 aligned CA, identity 55%, core CA RMSD to template 0.85 A; N-terminal residues anchored to crystal backbone: none; 22 conserved interface side chains from crystal: TYR24 ASN27 PHE31 ARG44 SER59 VAL60 GLU96 ARG97 LEU98 GLU99 ASN101 TYR103 ASN104 LEU118 LYS119 LYS125 GLN134 LYS135 ALA136 PHE139 LEU140 PRO141
+1e0o goldfish           model residues 19-145 (127 res; trimmed N 18, C 0); first GLU, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.84 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR24 ASN27 PHE31 ARG44 VAL60 GLU96 ARG97 LEU98 GLU99 ASN101 TYR103 ASN104 LEU118 LYS119 LYS125 GLN134 LYS135 ALA136 PHE139 LEU140 PRO141
+1e0o japanese_ricefish  model residues 19-145 (127 res; trimmed N 18, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.90 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR24 ASN27 PHE31 ARG44 SER59 GLU96 ARG97 LEU98 GLU99 ASN101 TYR103 ASN104 LEU118 LYS119 LYS125 GLN134 LYS135 ALA136 PHE139 LEU140 PRO141
+1e0o zebrafish          model residues 18-144 (127 res; trimmed N 17, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.77 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR23 ASN26 PHE30 ARG43 VAL59 GLU95 ARG96 LEU97 GLU98 ASN100 TYR102 ASN103 LEU117 LYS118 LYS124 GLN133 LYS134 ALA135 PHE138 LEU139 PRO140
+1fq9/bovine_stab: PROC:LYS27 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/bovine_stab: PROD:LYS27 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/chinook_salmon: PROD:LYS18 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/goldfish: PROD:LYS18 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/human: PROD:LYS26 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/human_stab: PROC:LYS27 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/human_stab: PROD:LYS27 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/japanese_ricefish: PROC:TYR17 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/japanese_ricefish: PROC:ARG54 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/japanese_ricefish: PROD:TYR17 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/japanese_ricefish: PROD:LYS18 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/zebrafish: PROC:ARG17 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/zebrafish: PROD:SER15 rotamer scan -> piercings 1, contacts<2.5A 1
+1fq9/zebrafish: PROD:ARG17 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/zebrafish: PROD:ASP18 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/bovine_stab: PROC:ARG69 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/bovine_stab: PROC:ARG129 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/bovine_stab: PROC:LYS138 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/bovine_stab: PROD:ARG53 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/bovine_stab: PROD:ARG69 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/chinook_salmon: PROC:ARG44 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/chinook_salmon: PROC:VAL60 rotamer scan -> piercings 0, contacts<2.5A 1
+1e0o/chinook_salmon: PROC:LYS129 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/goldfish: PROC:LYS129 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/goldfish: PROD:ARG44 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human: PROC:ARG68 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human: PROC:LYS137 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human: PROD:ARG52 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human: PROD:ARG68 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human_stab: PROC:ARG69 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human_stab: PROD:ARG53 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/human_stab: PROD:ARG69 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/japanese_ricefish: PROC:LYS129 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/japanese_ricefish: PROD:ARG44 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/zebrafish: PROC:ARG119 rotamer scan -> piercings 0, contacts<2.5A 0
+1e0o/zebrafish: PROC:LYS128 rotamer scan -> piercings 0, contacts<2.5A 0
+1fq9/bovine_stab        piercings 0  severe<1.8A 0  clashes<2.2A   2  peptide gaps ['PROC:25-26 1.91A', 'PROD:25-26 1.93A']
+1fq9/chinook_salmon     piercings 0  severe<1.8A 0  clashes<2.2A   1  peptide gaps none
+1fq9/goldfish           piercings 0  severe<1.8A 0  clashes<2.2A   3  peptide gaps none
+1fq9/human              piercings 0  severe<1.8A 0  clashes<2.2A   3  peptide gaps none
+1fq9/human_stab         piercings 0  severe<1.8A 0  clashes<2.2A   3  peptide gaps none
+1fq9/japanese_ricefish  piercings 0  severe<1.8A 0  clashes<2.2A   2  peptide gaps ['PROC:17-18 1.87A', 'PROD:17-18 1.86A']
+1fq9/zebrafish          piercings 0  severe<1.8A 0  clashes<2.2A   2  peptide gaps none
+1e0o/bovine_stab        piercings 0  severe<1.8A 0  clashes<2.2A   1  peptide gaps none
+1e0o/chinook_salmon     piercings 0  severe<1.8A 0  clashes<2.2A   1  peptide gaps none
+1e0o/goldfish           piercings 0  severe<1.8A 0  clashes<2.2A   3  peptide gaps none
+1e0o/human              piercings 0  severe<1.8A 0  clashes<2.2A   2  peptide gaps none
+1e0o/human_stab         piercings 0  severe<1.8A 0  clashes<2.2A   1  peptide gaps none
+1e0o/japanese_ricefish  piercings 0  severe<1.8A 0  clashes<2.2A   5  peptide gaps none
+1e0o/zebrafish          piercings 0  severe<1.8A 0  clashes<2.2A   4  peptide gaps none
+1fq9/bovine_stab: 181942 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 163 CLA 160, carb dihedral restraints 84
+1fq9/chinook_salmon: 181953 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 161 CLA 162, carb dihedral restraints 84
+1fq9/goldfish: 181960 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 161 CLA 162, carb dihedral restraints 84
+1fq9/human: 181985 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 161 CLA 162, carb dihedral restraints 84
+1fq9/human_stab: 181945 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 163 CLA 160, carb dihedral restraints 84
+1fq9/japanese_ricefish: 181894 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 160 CLA 165, carb dihedral restraints 84
+1fq9/zebrafish: 181927 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 161 CLA 162, carb dihedral restraints 84
+1e0o/bovine_stab: 204786 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 188, carb dihedral restraints 60
+1e0o/chinook_salmon: 204838 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 192, carb dihedral restraints 60
+1e0o/goldfish: 204829 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 192, carb dihedral restraints 60
+1e0o/human: 204866 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 192, carb dihedral restraints 60
+1e0o/human_stab: 204822 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 188, carb dihedral restraints 60
+1e0o/japanese_ricefish: 204799 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 196, carb dihedral restraints 60
+1e0o/zebrafish: 204843 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 192, carb dihedral restraints 60

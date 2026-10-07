@@ -1,0 +1,6 @@
+source model: /Users/alexanderwang/Desktop/md_sims/all_metrics_analysis_221/1e0o_zebrafish/charmm-gui-8224620512/step1_pdbreader.pdb (segment PROC, heavy atoms)
+full FGF: 145 residues
+PROC <- template 1E0O chain A: core = model residues 18-144 (127 res; trimmed N 17, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.77 A; N-terminal residues anchored to crystal backbone: none; 21 conserved interface side chains from crystal: TYR23 ASN26 PHE30 ARG43 VAL59 GLU95 ARG96 LEU97 GLU98 ASN100 TYR102 ASN103 LEU117 LYS118 LYS124 GLN133 LYS134 ALA135 PHE138 LEU139 PRO140
+PROD <- template 1E0O chain C: core = model residues 18-144 (127 res; trimmed N 17, C 1); first ASP, last LYS; 127 aligned CA, identity 57%, core CA RMSD to template 0.76 A; N-terminal residues anchored to crystal backbone: none; 20 conserved interface side chains from crystal: TYR23 CYS24 ASN26 PHE30 ARG43 VAL59 ASP78 GLU95 ARG96 LEU97 GLU98 ASN100 TYR102 ASN103 TRP113 LYS118 THR129 PHE138 LEU139 PRO140
+rotamer fix: PROC:ARG119 rotamer scan -> piercings 0, contacts<2.5A 0
+rotamer fix: PROC:LYS128 rotamer scan -> piercings 0, contacts<2.5A 0

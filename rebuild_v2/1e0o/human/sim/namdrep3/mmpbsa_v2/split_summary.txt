@@ -1,0 +1,11 @@
+PSF: step3_input.psf
+PDB: step3_input.pdb
+prmtop checked: complex_chamber.parm7
+FGF (ligand): ['PROC', 'PROD']
+FGFR: ['PROA', 'PROB']
+heparin: ['CARA']
+note: heparin treated as SHARED: kept in both interfaces (2:2:1 convention)
+contacts (8 A): PROC-PROA=23, PROC-PROB=0, PROD-PROA=0, PROD-PROB=26
+iface1: ligand ['PROC'] (127 res) | receptor ['PROA', 'CARA'] (207 res) | stripped ['PROB', 'PROD'] | ante -n :208-334 | strip (full numbering) :198-393,531-657
+iface2: ligand ['PROD'] (127 res) | receptor ['PROB', 'CARA'] (206 res) | stripped ['PROA', 'PROC'] | ante -n :207-333 | strip (full numbering) :1-197,404-530
+whole: ligand ['PROC', 'PROD'] (254 res) | receptor ['PROA', 'PROB', 'CARA'] (403 res) | stripped - | ante -n :404-657

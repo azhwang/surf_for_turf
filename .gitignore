@@ -1,0 +1,57 @@
+# This folder holds ~134 GB of MD data (trajectories, restarts, solvated systems,
+# MM/GBSA intermediates). Ignore everything by default and whitelist only code,
+# documentation, small results and build provenance.
+*
+!*/
+
+# --- code and docs (anywhere, minus the exclusions below) ---
+!.gitignore
+!*.py
+!*.sh
+!*.tcl
+!*.md
+
+# --- results (small) ---
+!mmpbsa_v2_results/*
+!mmpbsa_rebuild_results/*
+!qc_ring_piercing_*.csv
+!mmpbsa_deltatotal_summary.csv
+!mmpbsa_summary_22[12].xlsx
+!species_replicate_compare_22[12].png
+!plots/**/*.png
+!mmpbsa_v2_batch*.log
+
+# --- consistent rebuild: provenance + MD inputs (not the systems themselves) ---
+!rebuild_v2/templates/*.pdb
+!rebuild_v2/*/*/fgf_PRO[CD].pdb
+!rebuild_v2/*/*/core_report.txt
+!rebuild_v2/*/*/build_summary.txt
+!rebuild_v2/rebuild.log
+!rebuild_v2/*/*/sim/step3_pbcsetup.str
+!rebuild_v2/*/*/sim/namdrep*/*.inp
+!rebuild_v2/*/*/sim/namdrep*/mmpbsa_v2/split_summary.txt
+
+# --- exclusions (these win over the whitelist above) ---
+# CHARMM-GUI build trees, scratch/sandbox copies, superseded rebuild
+**/charmm-gui-*/
+sandbox/
+sandbox_222/
+sandbox_bovine_stab_222/
+metrics_sandbox/
+1to1 copy 4-9/
+rebuild_v2_old/
+# parameter folders (CHARMM-GUI distribution files)
+**/toppar/
+**/toppar_charmm/
+# per-replicate copies of pipeline scripts dropped in by the v1 runner
+**/namdrep*/run_mmpbsa_pipeline*.sh
+**/namdrep*/analyze_mmpbsa.py
+# MM/GBSA working directories (only split_summary.txt above is kept)
+**/mmpbsa_v2/*_run/
+# archives, locks, run leftovers
+*.zip
+*.tgz
+~$*
+*.nohup
+.resume_jobs4.sh
+.DS_Store

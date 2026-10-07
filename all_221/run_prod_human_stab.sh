@@ -1,0 +1,12 @@
+cd 1e0o_human_stab/charmm-gui-8225124362/
+cd namdrep1/
+sbatch prod_slurm.sh
+cd ../namdrep2/
+sbatch prod_slurm.sh
+cd ../namdrep3/
+sbatch prod_slurm.sh
+cd ../namdrep4/
+sbatch prod_slurm.sh
+cd ../namdrep5/
+sbatch prod_slurm.sh
+cd ../../../

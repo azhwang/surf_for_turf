@@ -1,0 +1,1 @@
+1e0o/japanese_ricefish: 204799 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 196, carb dihedral restraints 60

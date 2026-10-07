@@ -1,0 +1,1 @@
+1fq9/human: 181985 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 161 CLA 162, carb dihedral restraints 84

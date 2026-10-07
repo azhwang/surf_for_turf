@@ -1,0 +1,1 @@
+1e0o/bovine_stab: 204786 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 188, carb dihedral restraints 60

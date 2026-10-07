@@ -1,0 +1,10 @@
+PSF: step3_input.psf
+PDB: step3_input.pdb
+prmtop checked: complex_chamber.parm7
+FGF (ligand): ['PROC', 'PROD']
+FGFR: ['PROA', 'PROB']
+heparin: ['CARA', 'CARB']
+contacts (8 A): PROC-PROA=74, PROC-PROB=29, PROD-PROA=35, PROD-PROB=75
+iface1: ligand ['PROC'] (129 res) | receptor ['PROA', 'CARA'] (219 res) | stripped ['CARB', 'PROB', 'PROD'] | ante -n :220-348 | strip (full numbering) :212-407,416-421,551-679
+iface2: ligand ['PROD'] (129 res) | receptor ['PROB', 'CARB'] (202 res) | stripped ['CARA', 'PROA', 'PROC'] | ante -n :203-331 | strip (full numbering) :1-211,408-415,422-550
+whole: ligand ['PROC', 'PROD'] (258 res) | receptor ['PROA', 'PROB', 'CARA', 'CARB'] (421 res) | stripped - | ante -n :422-679

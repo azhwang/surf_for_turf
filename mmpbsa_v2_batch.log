@@ -1,0 +1,160 @@
+2026-10-02 14:38:04 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep1
+2026-10-02 14:47:40 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep1
+2026-10-02 14:47:40 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep2
+2026-10-02 14:57:02 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep2
+2026-10-02 14:57:02 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep3
+2026-10-02 15:06:24 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep3
+2026-10-02 15:06:24 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep4
+2026-10-02 15:15:50 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep4
+2026-10-02 15:15:50 START        rebuild_v2/1fq9/chinook_salmon/sim/namdrep1
+2026-10-02 15:25:03 OK           rebuild_v2/1fq9/chinook_salmon/sim/namdrep1
+2026-10-02 15:25:03 START        rebuild_v2/1fq9/chinook_salmon/sim/namdrep2
+2026-10-02 15:34:13 OK           rebuild_v2/1fq9/chinook_salmon/sim/namdrep2
+2026-10-02 15:34:13 START        rebuild_v2/1fq9/chinook_salmon/sim/namdrep3
+2026-10-02 15:43:25 OK           rebuild_v2/1fq9/chinook_salmon/sim/namdrep3
+2026-10-02 15:43:25 START        rebuild_v2/1fq9/chinook_salmon/sim/namdrep4
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/bovine_stab/sim/namdrep2
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/bovine_stab/sim/namdrep3
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/bovine_stab/sim/namdrep1
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/bovine_stab/sim/namdrep5
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/chinook_salmon/sim/namdrep1
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/chinook_salmon/sim/namdrep3
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/chinook_salmon/sim/namdrep4
+2026-10-02 15:45:16 START        rebuild_v2/1e0o/chinook_salmon/sim/namdrep5
+2026-10-02 17:12:07 OK           rebuild_v2/1e0o/chinook_salmon/sim/namdrep5
+2026-10-02 17:12:07 START        rebuild_v2/1e0o/goldfish/sim/namdrep1
+2026-10-02 17:12:07 OK           rebuild_v2/1e0o/chinook_salmon/sim/namdrep1
+2026-10-02 17:12:07 START        rebuild_v2/1e0o/goldfish/sim/namdrep2
+2026-10-02 17:12:07 FAILED       rebuild_v2/1e0o/goldfish/sim/namdrep1 :: see log
+2026-10-02 17:12:07 START        rebuild_v2/1e0o/goldfish/sim/namdrep3
+2026-10-02 17:12:09 OK           rebuild_v2/1e0o/chinook_salmon/sim/namdrep4
+2026-10-02 17:12:09 START        rebuild_v2/1e0o/goldfish/sim/namdrep5
+2026-10-02 17:12:09 OK           rebuild_v2/1e0o/chinook_salmon/sim/namdrep3
+2026-10-02 17:12:09 START        rebuild_v2/1e0o/human/sim/namdrep1
+2026-10-02 17:12:09 FAILED       rebuild_v2/1e0o/human/sim/namdrep1 :: see log
+2026-10-02 17:12:09 START        rebuild_v2/1e0o/human/sim/namdrep2
+2026-10-02 17:12:14 OK           rebuild_v2/1e0o/bovine_stab/sim/namdrep3
+2026-10-02 17:12:14 START        rebuild_v2/1e0o/human/sim/namdrep4
+2026-10-02 17:12:14 OK           rebuild_v2/1e0o/bovine_stab/sim/namdrep1
+2026-10-02 17:12:14 START        rebuild_v2/1e0o/human/sim/namdrep5
+2026-10-02 17:12:15 OK           rebuild_v2/1e0o/bovine_stab/sim/namdrep5
+2026-10-02 17:12:15 START        rebuild_v2/1e0o/human_stab/sim/namdrep1
+2026-10-02 17:12:15 OK           rebuild_v2/1e0o/bovine_stab/sim/namdrep2
+2026-10-02 17:12:15 START        rebuild_v2/1e0o/human_stab/sim/namdrep2
+2026-10-02 17:21:59 OK           rebuild_v2/1fq9/chinook_salmon/sim/namdrep4  (finished by the serial run)
+2026-10-02 17:23:03 OK           rebuild_v2/1e0o/goldfish/sim/namdrep3
+2026-10-02 17:23:04 OK           rebuild_v2/1e0o/goldfish/sim/namdrep5
+2026-10-02 17:23:04 OK           rebuild_v2/1e0o/goldfish/sim/namdrep2
+2026-10-02 17:23:06 OK           rebuild_v2/1e0o/human/sim/namdrep2
+2026-10-02 17:23:08 OK           rebuild_v2/1e0o/human/sim/namdrep5
+2026-10-02 17:23:09 OK           rebuild_v2/1e0o/human/sim/namdrep4
+2026-10-02 17:23:11 OK           rebuild_v2/1e0o/human_stab/sim/namdrep1
+2026-10-02 17:23:12 OK           rebuild_v2/1e0o/human_stab/sim/namdrep2
+2026-10-02 17:23:41 resuming batch with JOBS=4
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/bovine_stab/sim/namdrep1
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/bovine_stab/sim/namdrep2
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/bovine_stab/sim/namdrep3
+2026-10-02 17:23:41 SKIP (missing step3_input.psf/pdb or step5_production.dcd) rebuild_v2/1e0o/bovine_stab/sim/namdrep4
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/bovine_stab/sim/namdrep5
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/chinook_salmon/sim/namdrep1
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/chinook_salmon/sim/namdrep3
+2026-10-02 17:23:41 START        rebuild_v2/1e0o/chinook_salmon/sim/namdrep2
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/chinook_salmon/sim/namdrep4
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/chinook_salmon/sim/namdrep5
+2026-10-02 17:23:41 START        rebuild_v2/1e0o/goldfish/sim/namdrep1
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/goldfish/sim/namdrep2
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/goldfish/sim/namdrep3
+2026-10-02 17:23:41 SKIP (done)  rebuild_v2/1e0o/goldfish/sim/namdrep5
+2026-10-02 17:23:41 START        rebuild_v2/1e0o/goldfish/sim/namdrep4
+2026-10-02 17:23:41 START        rebuild_v2/1e0o/human/sim/namdrep1
+2026-10-02 17:33:04 OK           rebuild_v2/1e0o/chinook_salmon/sim/namdrep2
+2026-10-02 17:33:04 SKIP (done)  rebuild_v2/1e0o/human/sim/namdrep2
+2026-10-02 17:33:04 START        rebuild_v2/1e0o/human/sim/namdrep3
+2026-10-02 17:33:08 OK           rebuild_v2/1e0o/goldfish/sim/namdrep4
+2026-10-02 17:33:08 SKIP (done)  rebuild_v2/1e0o/human/sim/namdrep4
+2026-10-02 17:33:08 SKIP (done)  rebuild_v2/1e0o/human/sim/namdrep5
+2026-10-02 17:33:08 SKIP (done)  rebuild_v2/1e0o/human_stab/sim/namdrep1
+2026-10-02 17:33:08 SKIP (done)  rebuild_v2/1e0o/human_stab/sim/namdrep2
+2026-10-02 17:33:08 OK           rebuild_v2/1e0o/human/sim/namdrep1
+2026-10-02 17:33:08 START        rebuild_v2/1e0o/human_stab/sim/namdrep3
+2026-10-02 17:33:08 START        rebuild_v2/1e0o/human_stab/sim/namdrep4
+2026-10-02 17:33:08 OK           rebuild_v2/1e0o/goldfish/sim/namdrep1
+2026-10-02 17:33:08 START        rebuild_v2/1e0o/human_stab/sim/namdrep5
+2026-10-02 17:42:31 OK           rebuild_v2/1e0o/human/sim/namdrep3
+2026-10-02 17:42:31 START        rebuild_v2/1e0o/japanese_ricefish/sim/namdrep1
+2026-10-02 17:42:36 OK           rebuild_v2/1e0o/human_stab/sim/namdrep4
+2026-10-02 17:42:36 START        rebuild_v2/1e0o/japanese_ricefish/sim/namdrep2
+2026-10-02 17:42:36 OK           rebuild_v2/1e0o/human_stab/sim/namdrep3
+2026-10-02 17:42:36 START        rebuild_v2/1e0o/japanese_ricefish/sim/namdrep3
+2026-10-02 17:42:36 OK           rebuild_v2/1e0o/human_stab/sim/namdrep5
+2026-10-02 17:42:36 START        rebuild_v2/1e0o/japanese_ricefish/sim/namdrep4
+2026-10-02 17:51:44 OK           rebuild_v2/1e0o/japanese_ricefish/sim/namdrep1
+2026-10-02 17:51:44 START        rebuild_v2/1e0o/japanese_ricefish/sim/namdrep5
+2026-10-02 17:51:48 OK           rebuild_v2/1e0o/japanese_ricefish/sim/namdrep2
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep1
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep2
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep3
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep4
+2026-10-02 17:51:48 SKIP (missing step3_input.psf/pdb or step5_production.dcd) rebuild_v2/1fq9/bovine_stab/sim/namdrep5
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/chinook_salmon/sim/namdrep1
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/chinook_salmon/sim/namdrep2
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/chinook_salmon/sim/namdrep3
+2026-10-02 17:51:48 SKIP (done)  rebuild_v2/1fq9/chinook_salmon/sim/namdrep4
+2026-10-02 17:51:48 START        rebuild_v2/1fq9/chinook_salmon/sim/namdrep5
+2026-10-02 17:51:48 OK           rebuild_v2/1e0o/japanese_ricefish/sim/namdrep3
+2026-10-02 17:51:48 START        rebuild_v2/1fq9/goldfish/sim/namdrep1
+2026-10-02 17:51:49 OK           rebuild_v2/1e0o/japanese_ricefish/sim/namdrep4
+2026-10-02 17:51:49 START        rebuild_v2/1fq9/goldfish/sim/namdrep2
+2026-10-02 18:01:03 OK           rebuild_v2/1e0o/japanese_ricefish/sim/namdrep5
+2026-10-02 18:01:03 START        rebuild_v2/1fq9/goldfish/sim/namdrep3
+2026-10-02 18:01:17 OK           rebuild_v2/1fq9/chinook_salmon/sim/namdrep5
+2026-10-02 18:01:17 START        rebuild_v2/1fq9/goldfish/sim/namdrep4
+2026-10-02 18:01:22 OK           rebuild_v2/1fq9/goldfish/sim/namdrep1
+2026-10-02 18:01:22 START        rebuild_v2/1fq9/goldfish/sim/namdrep5
+2026-10-02 18:01:23 OK           rebuild_v2/1fq9/goldfish/sim/namdrep2
+2026-10-02 18:01:23 START        rebuild_v2/1fq9/human/sim/namdrep1
+2026-10-02 18:10:42 OK           rebuild_v2/1fq9/goldfish/sim/namdrep3
+2026-10-02 18:10:42 START        rebuild_v2/1fq9/human/sim/namdrep2
+2026-10-02 18:10:56 OK           rebuild_v2/1fq9/goldfish/sim/namdrep4
+2026-10-02 18:10:56 START        rebuild_v2/1fq9/human/sim/namdrep3
+2026-10-02 18:11:00 OK           rebuild_v2/1fq9/goldfish/sim/namdrep5
+2026-10-02 18:11:00 START        rebuild_v2/1fq9/human/sim/namdrep4
+2026-10-02 18:11:01 OK           rebuild_v2/1fq9/human/sim/namdrep1
+2026-10-02 18:11:01 START        rebuild_v2/1fq9/human_stab/sim/namdrep2
+2026-10-02 18:20:22 OK           rebuild_v2/1fq9/human/sim/namdrep2
+2026-10-02 18:20:23 START        rebuild_v2/1fq9/human_stab/sim/namdrep3
+2026-10-02 18:20:37 OK           rebuild_v2/1fq9/human/sim/namdrep3
+2026-10-02 18:20:37 START        rebuild_v2/1fq9/human_stab/sim/namdrep4
+2026-10-02 18:20:42 OK           rebuild_v2/1fq9/human/sim/namdrep4
+2026-10-02 18:20:42 START        rebuild_v2/1fq9/human_stab/sim/namdrep5
+2026-10-02 18:20:44 OK           rebuild_v2/1fq9/human_stab/sim/namdrep2
+2026-10-02 18:20:44 START        rebuild_v2/1fq9/japanese_ricefish/sim/namdrep1
+2026-10-02 18:30:05 OK           rebuild_v2/1fq9/human_stab/sim/namdrep3
+2026-10-02 18:30:05 START        rebuild_v2/1fq9/japanese_ricefish/sim/namdrep2
+2026-10-02 18:30:20 OK           rebuild_v2/1fq9/human_stab/sim/namdrep4
+2026-10-02 18:30:20 START        rebuild_v2/1fq9/japanese_ricefish/sim/namdrep3
+2026-10-02 18:30:20 OK           rebuild_v2/1fq9/japanese_ricefish/sim/namdrep1
+2026-10-02 18:30:20 START        rebuild_v2/1fq9/japanese_ricefish/sim/namdrep4
+2026-10-02 18:30:24 OK           rebuild_v2/1fq9/human_stab/sim/namdrep5
+2026-10-02 18:30:24 START        rebuild_v2/1fq9/japanese_ricefish/sim/namdrep5
+2026-10-02 18:39:46 OK           rebuild_v2/1fq9/japanese_ricefish/sim/namdrep2
+2026-10-02 18:39:46 START        rebuild_v2/1fq9/zebrafish/sim/namdrep1
+2026-10-02 18:40:00 OK           rebuild_v2/1fq9/japanese_ricefish/sim/namdrep4
+2026-10-02 18:40:00 START        rebuild_v2/1fq9/zebrafish/sim/namdrep3
+2026-10-02 18:40:00 OK           rebuild_v2/1fq9/japanese_ricefish/sim/namdrep3
+2026-10-02 18:40:00 START        rebuild_v2/1fq9/zebrafish/sim/namdrep4
+2026-10-02 18:40:03 OK           rebuild_v2/1fq9/japanese_ricefish/sim/namdrep5
+2026-10-02 18:40:03 START        rebuild_v2/1fq9/zebrafish/sim/namdrep5
+2026-10-02 18:49:35 OK           rebuild_v2/1fq9/zebrafish/sim/namdrep1
+2026-10-02 18:49:50 OK           rebuild_v2/1fq9/zebrafish/sim/namdrep3
+2026-10-02 18:49:50 OK           rebuild_v2/1fq9/zebrafish/sim/namdrep4
+2026-10-02 18:49:53 OK           rebuild_v2/1fq9/zebrafish/sim/namdrep5
+2026-10-03 23:58:00 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep2
+2026-10-03 23:58:00 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep1
+2026-10-03 23:58:00 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep3
+2026-10-03 23:58:00 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep4
+2026-10-03 23:58:00 SKIP (done)  rebuild_v2/1fq9/bovine_stab/sim/namdrep4_old
+2026-10-03 23:58:00 START        rebuild_v2/1fq9/bovine_stab/sim/namdrep5
+2026-10-04 00:07:27 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep4
+2026-10-04 00:07:27 SKIP (missing step3_input.psf/pdb or step5_production.dcd) rebuild_v2/1fq9/bovine_stab/sim/namdrep5_old
+2026-10-04 00:07:27 OK           rebuild_v2/1fq9/bovine_stab/sim/namdrep5

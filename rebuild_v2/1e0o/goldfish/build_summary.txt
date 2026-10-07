@@ -1,0 +1,1 @@
+1e0o/goldfish: 204829 atoms, box 129 A, min solute-to-box padding 11.8 A, POT 182 CLA 192, carb dihedral restraints 60

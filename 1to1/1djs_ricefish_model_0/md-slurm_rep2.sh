@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -p sched_mit_buehler_gpu     # partition name
+#SBATCH --job-name=myjobrep2         # name for your job
+#SBATCH --gres=gpu:1                 # if you need GPUs
+#SBATCH --ntasks=1                   # number of tasks (often 1 for serial jobs)
+#SBATCH --cpus-per-task=4            # CPU cores per task
+#SBATCH --mem=64G                    # memory per node
+#SBATCH --time=06:00:00              # max walltime (HH:MM:SS)
+#SBATCH --output=slurm-rep2-%j.out   # output file (%j = job ID) to capture logs for debugging
+
+/home/azhwang/Surf_for_Turf/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 md_rep2.conf > md_rep2.log

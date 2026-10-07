@@ -1,0 +1,1 @@
+1fq9/human_stab: 181945 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 163 CLA 160, carb dihedral restraints 84

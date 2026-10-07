@@ -1,0 +1,8 @@
+source model: /Users/alexanderwang/Desktop/md_sims/all_metrics_analysis/1fq9_zebrafish/charmm-gui-8035871929/step1_pdbreader.pdb (segment PROC, heavy atoms)
+full FGF: 145 residues
+PROC <- template 1FQ9 chain A: core = model residues 15-143 (129 res; trimmed N 14, C 2); first SER, last ALA; 129 aligned CA, identity 78%, core CA RMSD to template 0.59 A; N-terminal residues anchored to crystal backbone: SER15 PHE16 ARG17; 40 conserved interface side chains from crystal: LYS20 TYR23 LYS25 ASN26 PHE30 ARG43 LYS45 GLN53 LEU54 GLN55 ALA56 VAL62 GLU95 ARG96 LEU97 GLU98 SER99 ASN100 ASN101 TYR102 ASN103 THR104 LEU117 LYS118 ARG119 THR120 TYR123 LYS124 LYS128 THR129 PRO131 GLN133 LYS134 ALA135 ILE136 LEU137 PHE138 LEU139 PRO140 MET141
+PROD <- template 1FQ9 chain B: core = model residues 15-143 (129 res; trimmed N 14, C 2); first SER, last ALA; 129 aligned CA, identity 78%, core CA RMSD to template 0.59 A; N-terminal residues anchored to crystal backbone: SER15 PHE16 ARG17; 41 conserved interface side chains from crystal: LYS20 TYR23 CYS24 LYS25 ASN26 PHE30 ARG43 LYS45 GLN53 LEU54 GLN55 ALA56 VAL62 LYS65 GLU95 ARG96 LEU97 GLU98 SER99 ASN100 ASN101 TYR102 ASN103 THR104 LEU117 LYS118 ARG119 THR120 GLN122 LYS124 LYS128 PRO131 GLN133 LYS134 ALA135 ILE136 LEU137 PHE138 LEU139 PRO140 MET141
+rotamer fix: PROC:ARG17 rotamer scan -> piercings 0, contacts<2.5A 0
+rotamer fix: PROD:SER15 rotamer scan -> piercings 1, contacts<2.5A 1
+rotamer fix: PROD:ARG17 rotamer scan -> piercings 0, contacts<2.5A 0
+rotamer fix: PROD:ASP18 rotamer scan -> piercings 0, contacts<2.5A 0
