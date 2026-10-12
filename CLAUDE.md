@@ -206,10 +206,20 @@ single entry point is `run_rebuild.sh`.
   from `rebuild_v2_old/*/build/ionized.*` after checksum checks.
 - Clean: max single-residue ΔvdW is 2.4 kcal/mol across all 180 splits.
   Control: human_stab vs bovine_stab (one residue apart) differ by ≤2 kcal/mol.
-- 2:2:2: all species within replicate noise (whole −348 to −363; largest t =
-  1.5). 2:2:1: japanese_ricefish binds more weakly (whole −130 ± 7 vs −154 to
-  −159; t = 3.6 vs goldfish). This REVERSES the original-build ranking, where
-  ricefish was strongest (−269); that came from the tail artefacts.
+- **No significant species differences anywhere** (2026-10-09, using the
+  manuscript's statistics: one-way ANOVA + Tukey HSD on replicate means).
+  2:2:2 whole p = 0.92; 2:2:1 whole p = 0.21; every split p > 0.18; no Tukey
+  pair is significant. The earlier "ricefish binds more weakly" claim
+  (uncorrected Welch p = 0.008) does NOT survive multiple-comparison
+  correction (Tukey p = 0.22), so don't use it. The original builds' ricefish
+  "strongest" (−269) was an artefact.
+- Interface conservation (1FQ9/FGFR1 model, 4.5 Å contacts across all 7
+  orthologs): 28/40 FGFR-contacting FGF positions identical (70%), 11/12
+  heparin-contacting positions identical (92%); 65% across the whole core.
+- Receptor species: modelled human FGFR2 (1E0O) is 97% identical to bovine.
+  Human FGFR1 (1FQ9) is identical to bovine FGFR1 up to residue 312; the
+  differences (313–352) sit in the IIIb/IIIc alternatively spliced exon (the
+  bovine UniProt entry is likely the other isoform).
 - Experimental claim (user): in 2:2:1, goldfish binds more strongly than
   human, and the effect disappears in 2:2:2. The simulations do NOT resolve
   this. Goldfish − human: 2:2:1 whole −4 (p = 0.8), 2:2:2 whole −5 (p = 0.7).

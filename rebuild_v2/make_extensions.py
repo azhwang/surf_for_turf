@@ -71,7 +71,8 @@ echo "$(date '+%F %T') segment $out (from $prev) on $(hostname)"
 $NAMD +p${{SLURM_CPUS_PER_TASK:-4}} $out.inp > $out.log
 if grep -q "End of program" $out.log && [ -f $out.coor ]; then
     echo "$(date '+%F %T') $out done"
-    [ $n -lt $TOTAL ] && sbatch ext_slurm.sh
+    # retry: a transient "Unable to contact slurm controller" once killed two chains
+    [ $n -lt $TOTAL ] && for i in 1 2 3 4 5 6 7 8 9 10; do sbatch ext_slurm.sh && break; echo "sbatch failed (attempt $i), retrying in 5 min" >&2; sleep 300; done
 else
     echo "$(date '+%F %T') $out FAILED -- see $out.log; chain stopped" >&2
     exit 1
