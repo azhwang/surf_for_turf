@@ -1,0 +1,13 @@
+tmpl,sp,rep,nseg,status,siteC,siteD,allC,allD,dist,tight_frac,switches,dG_iface1,dG_iface2,dG_whole,blockSEM_iface1,blockSEM_iface2,blockSEM_whole
+1e0o,human,1,0,not analysed,,,,,,,,,,,,,
+1e0o,human,2,0,not analysed,,,,,,,,,,,,,
+1e0o,human,4,0,not analysed,,,,,,,,,,,,,
+1e0o,goldfish,1,0,not analysed,,,,,,,,,,,,,
+1e0o,goldfish,2,0,not analysed,,,,,,,,,,,,,
+1e0o,goldfish,3,0,not analysed,,,,,,,,,,,,,
+1fq9,human,1,33,not analysed,,,,,,,,,,,,,
+1fq9,human,2,50,complete,8.94,7.13,11.29,7.51,25.69,,,-147.05,-113.23,-294.39,4.13,1.73,5.27
+1fq9,human,3,50,complete,10.21,7.93,12.83,8.71,24.70,,,-149.28,-106.01,-285.51,7.30,4.58,8.73
+1fq9,goldfish,2,50,complete,10.59,4.41,13.44,4.75,22.02,,,-144.00,-95.04,-271.22,1.98,2.37,2.72
+1fq9,goldfish,3,50,complete,11.74,6.88,14.55,8.10,23.66,,,-166.62,-116.04,-315.95,5.56,3.53,9.58
+1fq9,goldfish,5,50,complete,11.38,8.54,13.73,9.07,24.60,,,-162.19,-125.54,-343.16,3.58,11.60,16.45
