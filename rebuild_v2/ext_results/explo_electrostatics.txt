@@ -1,0 +1,81 @@
+EXPLORATORY: static electrostatics of the FGF cores in the rebuilt starting structures
+E_hep / E_fgfr = Debye-Hueckel (eps 80, 0.15 M) interaction of each FGF copy with heparin / with both FGFRs, kcal/mol.
+Crude and comparative only (no desolvation, rigid start structure).
+
+== 2:2:1 (1e0o)
+  species             core q  E_hep C  E_hep D  E_fgfr C  E_fgfr D
+  human                +11.0    -15.8     -6.4      -0.2       0.4
+  human_stab            +9.0    -14.8     -7.1      -0.3      -0.7
+  bovine_stab           +9.0    -16.0     -7.0      -0.8      -0.0
+  chinook_salmon       +11.0    -14.9     -6.6      -0.3      -0.2
+  goldfish             +11.0    -15.2     -6.3      -0.3      -0.1
+  japanese_ricefish    +13.0    -15.3     -6.5      -0.5       0.3
+  zebrafish          (no structure locally)
+
+== 2:2:2 (1fq9)
+  species             core q  E_hep C  E_hep D  E_fgfr C  E_fgfr D
+  human                +11.0    -14.0    -12.7      -0.7      -0.4
+  human_stab            +9.0    -13.9    -12.6      -0.4      -0.1
+  bovine_stab           +9.0    -14.0    -12.6      -0.9      -0.6
+  chinook_salmon       +11.0    -14.0    -12.7      -0.4      -0.3
+  goldfish             +11.0    -13.6    -12.4      -0.7      -0.1
+  japanese_ricefish    +13.0    -14.0    -12.6      -0.2       0.5
+  zebrafish            +11.0    -13.8    -12.5      -0.1       0.2
+
+== human -> goldfish substitutions, 2:2:1 core numbering (127 residues; FGF2 numbering = core + 27)
+  D1E  charge +0  
+  H17N  charge +0  
+  P18S  charge +0  
+  V25I  charge +0  
+  K34R  charge +0  
+  E40T  charge +1  
+  E41A  charge +1  
+  R42V  charge -1  contacts FGFR(C), FGFR(D)
+  V44E  charge -1  
+  S46L  charge +0  
+  V50I  charge +0  
+  K59N  charge -1  
+  E60S  charge +1  
+  L65I  charge +0  
+  A66G  charge +0  
+  S67T  charge +0  
+  K68R  charge +0  
+  C69R  charge +1  
+  V70T  charge +0  
+  F75Y  charge +0  
+  F77L  charge +0  
+  T94P  charge +0  
+  S95D  charge -1  
+  L108A  charge +0  contacts heparin(C), heparin(D)
+  G113S  charge +0  
+  net charge change human -> goldfish (K/R/D/E only): +0
+
+== human -> goldfish substitutions, 2:2:2 core numbering (129 residues; FGF2 numbering = core + 24)
+  H1N  charge +0  contacts FGFR(C), FGFR(D)
+  D4E  charge +0  
+  H20N  charge +0  
+  P21S  charge +0  
+  V28I  charge +0  
+  K37R  charge +0  
+  E43T  charge +1  contacts FGFR(C), FGFR(D)
+  E44A  charge +1  contacts FGFR(C), FGFR(D)
+  R45V  charge -1  contacts FGFR(C), FGFR(D)
+  V47E  charge -1  
+  S49L  charge +0  contacts FGFR(C), FGFR(D)
+  V53I  charge +0  
+  K62N  charge -1  
+  E63S  charge +1  
+  L68I  charge +0  
+  A69G  charge +0  
+  S70T  charge +0  
+  K71R  charge +0  
+  C72R  charge +1  
+  V73T  charge +0  contacts FGFR(C), FGFR(D)
+  F78Y  charge +0  contacts FGFR(D)
+  F80L  charge +0  
+  T97P  charge +0  
+  S98D  charge -1  
+  L111A  charge +0  
+  G116S  charge +0  contacts FGFR(C)
+  net charge change human -> goldfish (K/R/D/E only): +0
+

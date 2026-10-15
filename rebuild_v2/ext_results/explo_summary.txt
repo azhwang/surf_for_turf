@@ -1,0 +1,57 @@
+EXPLORATORY analyses (not pre-registered). Replicate means over extension segments 11-50.
+
+== FGF-heparin (FGFR stripped)
+  2:2:1  goldfish   -150.8  human   -134.8  diff  -15.9 [95% CI -83.1, +51.3]  p = 0.49   reps g [-137.0, -164.5] h [-154.8, -106.2, -143.5]
+  2:2:2  goldfish   -134.8  human   -137.0  diff   +2.2 [95% CI -40.3, +44.7]  p = 0.89   reps g [-111.4, -150.4, -142.6] h [-154.2, -127.4, -129.4]
+  interaction (g-h)2:2:1 - (g-h)2:2:2 = -18.1 [95% CI -81.0, +44.7]  p = 0.50
+
+== FGF-FGFR, heparin stripped
+  2:2:1  goldfish    -44.8  human    -29.8  diff  -15.0 [95% CI -26.4, -3.7]  p = 0.02   reps g [-46.8, -42.9] h [-27.6, -26.1, -35.7]
+  2:2:2  goldfish   -126.9  human   -108.6  diff  -18.2 [95% CI -47.9, +11.5]  p = 0.14   reps g [-120.3, -125.7, -134.6] h [-92.8, -120.7, -112.4]
+  interaction (g-h)2:2:1 - (g-h)2:2:2 = +3.2 [95% CI -24.9, +31.3]  p = 0.76
+
+== whole assembly (reference)
+  2:2:1  goldfish   -205.3  human   -178.1  diff  -27.1 [95% CI -95.5, +41.2]  p = 0.28   reps g [-196.1, -214.5] h [-198.0, -141.5, -194.9]
+  2:2:2  goldfish   -310.1  human   -290.8  diff  -19.3 [95% CI -107.6, +68.9]  p = 0.45   reps g [-271.2, -316.0, -343.2] h [-292.4, -294.4, -285.5]
+  interaction (g-h)2:2:1 - (g-h)2:2:2 = -7.8 [95% CI -85.0, +69.4]  p = 0.80
+
+== per-residue decomposition, 2:2:1 (1e0o), FGF residues, whole-assembly split (n g 2, h 3)
+  FGF C: total g-h -2.9 = substituted positions -0.7 + conserved positions -2.2
+  FGF D: total g-h -12.4 = substituted positions -1.6 + conserved positions -10.8
+  largest |goldfish - human| (kcal/mol; FGF2 numbering; * = substituted):
+    FGF D R90      human   -0.48  goldfish  -11.50  diff -11.02  p = 0.27
+    FGF C R90      human   -2.03  goldfish  -12.02  diff  -9.99  p = 0.36
+    FGF C K35      human  -10.49  goldfish   -3.92  diff  +6.56  p = 0.07
+    FGF C K128     human  -15.49  goldfish  -12.22  diff  +3.27  p = 0.21
+    FGF C K134     human   -8.85  goldfish  -11.92  diff  -3.06  p = 0.59
+    FGF D K138     human  -12.98  goldfish  -15.59  diff  -2.61  p = 0.37
+    FGF D K128     human  -10.86  goldfish   -8.58  diff  +2.27  p = 0.52
+    FGF D K134     human  -10.79  goldfish   -9.02  diff  +1.77  p = 0.61
+    FGF D L135A*   human   -0.67  goldfish   -2.32  diff  -1.65  p = 0.01
+    FGF D N113     human   -0.23  goldfish   -1.80  diff  -1.58  p = 0.18
+    FGF D T130     human   -1.76  goldfish   -0.32  diff  +1.44  p = 0.32
+    FGF D R129     human  -12.51  goldfish  -11.15  diff  +1.36  p = 0.77
+    FGF D R53      human   -2.23  goldfish   -0.95  diff  +1.28  p = 0.16
+    FGF C Y112     human   -1.65  goldfish   -0.52  diff  +1.13  p = 0.17
+    FGF C N113     human   -0.31  goldfish   -1.41  diff  -1.10  p = 0.02
+
+== per-residue decomposition, 2:2:2 (1fq9), FGF residues, whole-assembly split (n g 3, h 3)
+  FGF C: total g-h -16.5 = substituted positions -5.0 + conserved positions -11.5
+  FGF D: total g-h -2.4 = substituted positions -4.2 + conserved positions +1.9
+  largest |goldfish - human| (kcal/mol; FGF2 numbering; * = substituted):
+    FGF C K35      human   -3.61  goldfish   -9.37  diff  -5.76  p = 0.14
+    FGF D R129     human  -11.40  goldfish  -14.75  diff  -3.35  p = 0.28
+    FGF C K144     human  -11.04  goldfish  -13.55  diff  -2.51  p = 0.37
+    FGF D K128     human   -8.71  goldfish   -6.42  diff  +2.29  p = 0.08
+    FGF C E67T*    human    0.84  goldfish   -1.42  diff  -2.25  p = 0.00
+    FGF D K144     human  -11.30  goldfish   -9.06  diff  +2.24  p = 0.15
+    FGF D K134     human   -8.26  goldfish   -6.17  diff  +2.09  p = 0.27
+    FGF D E67T*    human    0.65  goldfish   -1.36  diff  -2.01  p = 0.02
+    FGF D R69V*    human   -1.69  goldfish   -3.50  diff  -1.80  p = 0.05
+    FGF C E68A*    human    0.43  goldfish   -1.37  diff  -1.79  p = 0.04
+    FGF D Q65      human   -3.06  goldfish   -1.37  diff  +1.69  p = 0.20
+    FGF D N113     human   -2.28  goldfish   -3.96  diff  -1.68  p = 0.17
+    FGF D F26      human   -3.86  goldfish   -5.47  diff  -1.61  p = 0.06
+    FGF C R129     human  -19.91  goldfish  -21.52  diff  -1.61  p = 0.27
+    FGF D N36      human   -2.23  goldfish   -3.82  diff  -1.59  p = 0.18
+

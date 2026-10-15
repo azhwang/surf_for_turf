@@ -1,0 +1,14 @@
+EXPLORATORY: species x stoichiometry interaction, goldfish vs human (not in the pre-registered plan)
+Interaction contrast = (goldfish - human) in 2:2:1  minus  (goldfish - human) in 2:2:2; the experimental
+claim predicts < 0. p_int from two-way ANOVA (type III).
+
+== 1 ns rebuild set
+  iface1  g-h 2:2:1   +9.6  g-h 2:2:2  -13.5  interaction  +23.2 [95% CI -10.2, +56.5]  p_int = 0.14  p_species = 0.80   n {'2:2:1 g': 5, '2:2:1 h': 5, '2:2:2 g': 5, '2:2:2 h': 4}
+  iface2  g-h 2:2:1  -13.4  g-h 2:2:2   +1.2  interaction  -14.6 [95% CI -33.7, +4.5]  p_int = 0.12  p_species = 0.20   n {'2:2:1 g': 5, '2:2:1 h': 5, '2:2:2 g': 5, '2:2:2 h': 4}
+  whole   g-h 2:2:1   -4.1  g-h 2:2:2   -5.3  interaction   +1.2 [95% CI -44.1, +46.5]  p_int = 0.96  p_species = 0.66   n {'2:2:1 g': 5, '2:2:1 h': 5, '2:2:2 g': 5, '2:2:2 h': 4}
+
+== 50 ns extensions, window 11-50 ns
+  iface1  g-h 2:2:1   -5.6  g-h 2:2:2   -8.4  interaction   +2.8 [95% CI -32.8, +38.3]  p_int = 0.85  p_species = 0.36   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+  iface2  g-h 2:2:1  -21.6  g-h 2:2:2   -1.9  interaction  -19.7 [95% CI -65.5, +26.0]  p_int = 0.22  p_species = 0.15   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+  whole   g-h 2:2:1  -27.2  g-h 2:2:2  -19.3  interaction   -7.8 [95% CI -85.0, +69.4]  p_int = 0.82  p_species = 0.19   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+
