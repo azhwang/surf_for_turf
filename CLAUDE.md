@@ -253,3 +253,18 @@ single entry point is `run_rebuild.sh`.
 - The methods draft has placeholders (versions, temperature 310 K, frame
   count/interval).
 - Only 10 frames per replicate. Treat single-replicate ΔG as preliminary.
+
+### Extension results + exploratory analyses (2026-10-15)
+- Pre-registered (ANALYSIS_PLAN_extensions.md): 2:2:1 whole ΔG goldfish − human −27
+  (CI −96, +41; p = 0.28; n 2 vs 3) → **v1 claim NOT SUPPORTED (not resolved)**. 2:2:2 −19
+  (p = 0.45). The 1 ns human two-state behaviour does not persist: all reps flicker
+  (tight 1–26 % of frames), so it was a short-run artefact. Results in `rebuild_v2/ext_results/`.
+- Exploratory (`analyze_exploratory.sh`, `explo_*.py`; label as exploratory in the paper; ~10
+  tests, none survives correction): the species × stoichiometry interaction is null (whole p = 0.8).
+  FGF–FGFR without heparin favours goldfish in BOTH stoichiometries (−15, p = 0.02; −18, p = 0.14),
+  so it is not stoichiometry-specific. FGF–heparin interaction is −18 (right direction, p = 0.5).
+  Net core charge is identical (+11), and static electrostatics are the same.
+- Mechanistic lead: conserved **R90** (FGF2 155-aa numbering; known heparin-site residue)
+  engages the shared 2:2:1 heparin in goldfish (both reps, both copies) but barely in human;
+  per-residue −11.5 vs −0.5 to −2 kcal/mol. A falsifiable prediction for goldfish rep 3 was
+  committed before its analysis: `ext_results/PREDICTION_goldfish_rep3.md`.
