@@ -11,7 +11,7 @@ from pathlib import Path
 from scipy import stats
 
 B = Path(__file__).resolve().parent
-SEL = {"1e0o/human": [1, 2, 4], "1e0o/goldfish": [1, 2], "1fq9/human": [1, 2, 3], "1fq9/goldfish": [2, 3, 5]}
+SEL = {"1e0o/human": [1, 2, 4], "1e0o/goldfish": [1, 2, 3], "1fq9/human": [1, 2, 3], "1fq9/goldfish": [2, 3, 5]}
 STO = {"1e0o": "2:2:1", "1fq9": "2:2:2"}
 OFF = {"1e0o": 27, "1fq9": 24}   # core position -> FGF2 (155 aa) numbering
 AA = dict(ALA='A', ARG='R', ASN='N', ASP='D', CYS='C', GLN='Q', GLU='E', GLY='G', HIS='H', HSD='H', HSE='H', HSP='H',

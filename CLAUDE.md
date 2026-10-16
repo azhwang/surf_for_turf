@@ -268,3 +268,10 @@ single entry point is `run_rebuild.sh`.
   engages the shared 2:2:1 heparin in goldfish (both reps, both copies) but barely in human;
   per-residue −11.5 vs −0.5 to −2 kcal/mol. A falsifiable prediction for goldfish rep 3 was
   committed before its analysis: `ext_results/PREDICTION_goldfish_rep3.md`.
+- **Goldfish rep 3 added (2026-10-16); final n = 3 vs 3.** Pre-registered 2:2:1 whole: goldfish − human
+  −20 (CI −87, +46; p = 0.40) → v1 claim NOT SUPPORTED (not resolved). The species × stoichiometry interaction
+  is null (whole p = 0.98). FGF–FGFR without heparin favours goldfish in both stoichiometries (2:2:1 −17,
+  p = 0.01; 2:2:2 −18, p = 0.14).
+  **The R90 prediction was confirmed in rep 3** (heparin contacts 18.9/15.8; −10.6/−9.4 kcal/mol). R90 engages the
+  heparin in 3/3 goldfish and 0/3 human in 2:2:1 and contributes the same in both species in 2:2:2, so it is a
+  stoichiometry-specific difference in heparin-binding mode. The net FGF–heparin energy is compensated (−6, p = 0.77).

@@ -4,3 +4,4 @@ EXPLORATORY: FGF R90 (core 63) heavy-atom contacts within 4.5 A, window mean ove
 1e0o/human/namdrep4     C: FGFR-A 0.0 FGFR-B 0.0 heparin  5.5 | D: FGFR-A 0.0 FGFR-B 0.0 heparin  0.0
 1e0o/goldfish/namdrep1  C: FGFR-A 0.0 FGFR-B 0.0 heparin 11.1 | D: FGFR-A 0.0 FGFR-B 0.0 heparin  9.6
 1e0o/goldfish/namdrep2  C: FGFR-A 0.0 FGFR-B 0.0 heparin 36.1 | D: FGFR-A 0.0 FGFR-B 0.0 heparin 16.1
+1e0o/goldfish/namdrep3  C: FGFR-A 0.0 FGFR-B 0.0 heparin 18.9 | D: FGFR-A 0.0 FGFR-B 0.0 heparin 15.8

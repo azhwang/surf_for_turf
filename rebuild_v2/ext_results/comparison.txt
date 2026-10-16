@@ -1,14 +1,14 @@
 Goldfish vs human, replicate means over extension segments 11-50 (complete replicates only)
 
-== 2:2:1 (1e0o): n goldfish = 2, n human = 3
-  ΔG whole (kcal/mol)                    goldfish   -205.3  human   -178.1  diff   -27.1 [95% CI -95.5, +41.2]  Welch p = 0.284
+== 2:2:1 (1e0o): n goldfish = 3, n human = 3
+  ΔG whole (kcal/mol)                    goldfish   -198.4  human   -178.1  diff   -20.2 [95% CI -86.7, +46.3]  Welch p = 0.396
   >> pre-specified test of the v1 claim (goldfish lower ΔG than human, 2:2:1 whole): NOT SUPPORTED (not resolved at this n)
-  ΔG interface 1                         goldfish   -112.6  human   -107.0  diff    -5.6 [95% CI -44.0, +32.8]  Welch p = 0.654
-  ΔG interface 2                         goldfish    -84.1  human    -62.5  diff   -21.6 [95% CI -82.2, +39.0]  Welch p = 0.239
-  heparin-site salt bridges, FGF C       goldfish     10.6  human     11.1  diff    -0.5 [95% CI -8.0, +6.9]  Welch p = 0.742
-  heparin-site salt bridges, FGF D       goldfish      9.4  human      9.8  diff    -0.3 [95% CI -5.9, +5.3]  Welch p = 0.832
-  FGFR-FGFR distance (Å)                 goldfish     46.4  human     52.8  diff    -6.4 [95% CI -22.7, +9.9]  Welch p = 0.236
-  fraction tight (2:2:1)                 goldfish      0.1  human      0.2  diff    -0.1 [95% CI -0.5, +0.4]  Welch p = 0.695
+  ΔG interface 1                         goldfish   -113.8  human   -107.0  diff    -6.8 [95% CI -47.1, +33.5]  Welch p = 0.578
+  ΔG interface 2                         goldfish    -77.8  human    -62.5  diff   -15.3 [95% CI -46.6, +16.1]  Welch p = 0.240
+  heparin-site salt bridges, FGF C       goldfish     10.7  human     11.1  diff    -0.4 [95% CI -3.0, +2.2]  Welch p = 0.669
+  heparin-site salt bridges, FGF D       goldfish      8.3  human      9.8  diff    -1.5 [95% CI -6.4, +3.5]  Welch p = 0.453
+  FGFR-FGFR distance (Å)                 goldfish     48.9  human     52.8  diff    -3.9 [95% CI -17.4, +9.7]  Welch p = 0.455
+  fraction tight (2:2:1)                 goldfish      0.1  human      0.2  diff    -0.0 [95% CI -0.3, +0.2]  Welch p = 0.796
 
 == 2:2:2 (1fq9): n goldfish = 3, n human = 3
   ΔG whole (kcal/mol)                    goldfish   -310.1  human   -290.8  diff   -19.3 [95% CI -107.6, +68.9]  Welch p = 0.454
@@ -19,4 +19,3 @@ Goldfish vs human, replicate means over extension segments 11-50 (complete repli
   FGFR-FGFR distance (Å)                 goldfish     23.4  human     25.0  diff    -1.6 [95% CI -4.4, +1.2]  Welch p = 0.157
   fraction tight (2:2:1)                 goldfish []  human []  (n<2, no test)
 
-Not in the primary analysis yet: 1e0o/goldfish rep3: not analysed

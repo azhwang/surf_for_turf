@@ -8,7 +8,7 @@ claim predicts < 0. p_int from two-way ANOVA (type III).
   whole   g-h 2:2:1   -4.1  g-h 2:2:2   -5.3  interaction   +1.2 [95% CI -44.1, +46.5]  p_int = 0.96  p_species = 0.66   n {'2:2:1 g': 5, '2:2:1 h': 5, '2:2:2 g': 5, '2:2:2 h': 4}
 
 == 50 ns extensions, window 11-50 ns
-  iface1  g-h 2:2:1   -5.6  g-h 2:2:2   -8.4  interaction   +2.8 [95% CI -32.8, +38.3]  p_int = 0.85  p_species = 0.36   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
-  iface2  g-h 2:2:1  -21.6  g-h 2:2:2   -1.9  interaction  -19.7 [95% CI -65.5, +26.0]  p_int = 0.22  p_species = 0.15   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
-  whole   g-h 2:2:1  -27.2  g-h 2:2:2  -19.3  interaction   -7.8 [95% CI -85.0, +69.4]  p_int = 0.82  p_species = 0.19   n {'2:2:1 g': 2, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+  iface1  g-h 2:2:1   -6.8  g-h 2:2:2   -8.4  interaction   +1.5 [95% CI -34.0, +37.0]  p_int = 0.91  p_species = 0.27   n {'2:2:1 g': 3, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+  iface2  g-h 2:2:1  -15.3  g-h 2:2:2   -1.9  interaction  -13.4 [95% CI -48.6, +21.8]  p_int = 0.38  p_species = 0.27   n {'2:2:1 g': 3, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
+  whole   g-h 2:2:1  -20.2  g-h 2:2:2  -19.3  interaction   -0.9 [95% CI -77.6, +75.8]  p_int = 0.98  p_species = 0.21   n {'2:2:1 g': 3, '2:2:1 h': 3, '2:2:2 g': 3, '2:2:2 h': 3}
 

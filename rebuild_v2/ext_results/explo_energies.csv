@@ -1,6 +1,7 @@
 split,tmpl,species,rep,dG
 hep,1e0o,goldfish,1,-136.96
 hep,1e0o,goldfish,2,-164.55
+hep,1e0o,goldfish,3,-121.28
 hep,1e0o,human,1,-154.81
 hep,1e0o,human,2,-106.23
 hep,1e0o,human,4,-143.47
@@ -12,6 +13,7 @@ hep,1fq9,human,2,-127.42
 hep,1fq9,human,3,-129.44
 fgfr,1e0o,goldfish,1,-46.78
 fgfr,1e0o,goldfish,2,-42.91
+fgfr,1e0o,goldfish,3,-51.43
 fgfr,1e0o,human,1,-27.65
 fgfr,1e0o,human,2,-26.11
 fgfr,1e0o,human,4,-35.72
@@ -23,6 +25,7 @@ fgfr,1fq9,human,2,-120.67
 fgfr,1fq9,human,3,-112.43
 whole,1e0o,goldfish,1,-196.11
 whole,1e0o,goldfish,2,-214.47
+whole,1e0o,goldfish,3,-184.50
 whole,1e0o,human,1,-197.99
 whole,1e0o,human,2,-141.49
 whole,1e0o,human,4,-194.94
