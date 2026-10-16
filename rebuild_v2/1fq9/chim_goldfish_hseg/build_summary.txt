@@ -1,0 +1,1 @@
+1fq9/chim_goldfish_hseg: 182000 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 162 CLA 161, carb dihedral restraints 84
