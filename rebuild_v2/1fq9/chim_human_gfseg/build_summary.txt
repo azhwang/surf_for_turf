@@ -1,0 +1,1 @@
+1fq9/chim_human_gfseg: 181951 atoms, box 124 A, min solute-to-box padding 10.2 A, POT 160 CLA 163, carb dihedral restraints 84

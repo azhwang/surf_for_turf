@@ -13,7 +13,7 @@ for tk in ("1fq9", "1e0o"):
     scaf = glob.glob(str(BASE / SCAF[tk] / "charmm-gui-*" / "step1_pdbreader.pdb"))[0]
     lines = [l for l in open(scaf) if l.startswith("ATOM") and l[72:76].strip().startswith(("PROA", "PROB", "CAR"))
              and not l[12:16].strip().startswith("H")]
-    for sd in sorted((BASE / tk).iterdir()):
+    for sd in sorted(d for d in (BASE / tk).iterdir() if (d / "fgf_PROC.pdb").exists()):   # skip .DS_Store etc.
         fgf = [l for s in ("PROC", "PROD") for l in open(sd / f"fgf_{s}.pdb") if l.startswith("ATOM")]
         pre = sd / "precheck.pdb"
         pre.write_text("".join(lines + fgf))

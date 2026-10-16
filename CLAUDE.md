@@ -275,3 +275,17 @@ single entry point is `run_rebuild.sh`.
   **The R90 prediction was confirmed in rep 3** (heparin contacts 18.9/15.8; −10.6/−9.4 kcal/mol). R90 engages the
   heparin in 3/3 goldfish and 0/3 human in 2:2:1 and contributes the same in both species in 2:2:2, so it is a
   stoichiometry-specific difference in heparin-binding mode. The net FGF–heparin energy is compensated (−6, p = 0.77).
+
+### Segment-swap chimeras (set up 2026-10-16; not yet run)
+- `rebuild_v2/make_chimeras.py` builds `chim_human_gfseg` (human core + goldfish FGF2 86–97:
+  K86N E87S L92I A93G S94T K95R C96R V97T) and `chim_goldfish_hseg` (the reverse), in 1E0O and 1FQ9,
+  3 replicates each. Host backbone everywhere, donor side chains superposed; precheck clean, builds
+  match the parents (identical close contacts, identical local NAMD start energies).
+- `build_all.py`: `chim_*` systems get 3 replicates and seeds +500. `precheck.py` now skips non-system
+  entries (.DS_Store crashed it).
+- Each replicate has `submit_chain.sh` (eq → prod → 50 × 1 ns ext chain); top level
+  `submit_chimeras.sh [1e0o|1fq9]`. Upload to the cluster `extension_test/` folder (where the extensions ran).
+- Pre-registered plan: `rebuild_v2/ANALYSIS_PLAN_chimeras.md`. Primary metric: Arg90–heparin contacts
+  (`analyze_r90.sh`, validated against the parents; reference in `ext_results/r90_parent_reference.txt`).
+  Engaged copy = contacts > 7.5 and Arg90 decomposition < −5 kcal/mol. H1: human_gfseg engaged in ≥ 2/3;
+  H2: goldfish_hseg engaged in ≤ 1/3 (2:2:1).

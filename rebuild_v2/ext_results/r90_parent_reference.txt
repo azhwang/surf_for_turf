@@ -1,0 +1,12 @@
+1e0o/human/sim/namdrep1      heparin contacts C   2.7  D   0.0
+1e0o/human/sim/namdrep2      heparin contacts C   3.4  D   0.1
+1e0o/human/sim/namdrep4      heparin contacts C   5.5  D   0.0
+1e0o/goldfish/sim/namdrep1   heparin contacts C  11.1  D   9.6
+1e0o/goldfish/sim/namdrep2   heparin contacts C  36.1  D  16.1
+1e0o/goldfish/sim/namdrep3   heparin contacts C  18.9  D  15.8
+1fq9/human/sim/namdrep1      heparin contacts C   4.6  D   0.0
+1fq9/human/sim/namdrep2      heparin contacts C   2.5  D   0.0
+1fq9/human/sim/namdrep3      heparin contacts C   3.3  D   0.0
+1fq9/goldfish/sim/namdrep2   heparin contacts C   3.1  D   0.0
+1fq9/goldfish/sim/namdrep3   heparin contacts C   4.1  D   0.0
+1fq9/goldfish/sim/namdrep5   heparin contacts C   2.6  D   0.0

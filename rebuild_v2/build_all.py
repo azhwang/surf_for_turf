@@ -175,7 +175,8 @@ def build(tk, sp):
         pbc = re.sub(rf"SET {k} = \S+", f"SET {k} = {BOX[tk]:g}", pbc)
     (sdir / "step3_pbcsetup.str").write_text(pbc)
     scaf_rep = scaf / "namdrep1"
-    for r in range(1, N_REPS + 1):
+    chim = sp.startswith("chim_")              # segment-swap chimeras (make_chimeras.py): 3 replicates
+    for r in range(1, (3 if chim else N_REPS) + 1):
         rd = sdir / f"namdrep{r}"
         (rd / "restraints").mkdir(parents=True)
         shutil.copy(bdir / "ionized.psf", rd / "step3_input.psf")
@@ -184,7 +185,7 @@ def build(tk, sp):
         n_dihe = remap_carb_restraints(scaf_rep / "restraints" / "carbohydrate_restraint.dat",
                                        scaf_rep / "step3_input.psf", bdir / "ionized.psf",
                                        rd / "restraints" / "carbohydrate_restraint.dat")
-        seed = 1000 * (1 if tk == "1fq9" else 2) + 10 * r
+        seed = 1000 * (1 if tk == "1fq9" else 2) + 10 * r + (500 if chim else 0)   # chimeras: seeds distinct from the parents'
         for inp in ("step4_equilibration.inp", "step5_production.inp"):
             # parameters read from the shared sim/toppar/ (no per-replicate symlink:
             # links get dropped or broken by scp/SFTP/Globus transfers)
