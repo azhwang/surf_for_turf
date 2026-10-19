@@ -55,3 +55,6 @@ rebuild_v2_old/
 *.nohup
 .resume_jobs4.sh
 .DS_Store
+
+# manuscript drafts are kept out of the repository (2026-10-19)
+manuscript/
