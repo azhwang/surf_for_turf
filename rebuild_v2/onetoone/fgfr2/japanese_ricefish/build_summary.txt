@@ -1,0 +1,1 @@
+fgfr2/japanese_ricefish: 141655 atoms, box 114 A, segments PROA,PROC, POT 128 CLA 145

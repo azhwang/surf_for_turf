@@ -289,3 +289,25 @@ single entry point is `run_rebuild.sh`.
   (`analyze_r90.sh`, validated against the parents; reference in `ext_results/r90_parent_reference.txt`).
   Engaged copy = contacts > 7.5 and Arg90 decomposition < −5 kcal/mol. H1: human_gfseg engaged in ≥ 2/3;
   H2: goldfish_hseg engaged in ≤ 1/3 (2:2:1).
+
+### 1:1 FGF2–FGFR systems (set up 2026-10-19; not yet run)
+- `rebuild_v2/build_1to1.py` -> `rebuild_v2/onetoone/{fgfr1,fgfr2}/<species>/`. 7 species x 2
+  receptors x 5 replicates = 70 runs. No heparin (user decision 2026-10-19).
+- **Derived from the rebuilt 2:2:2 / 2:2:1 solutes, not from 1EVT/1DJS.** Those crystals have
+  10–12 residue gaps in FGFR (1EVT C 294-303, 312-323; 1DJS A 297-306 + shorter) that would need
+  loop modelling and would break comparability with Table 1. Instead psfgen deletes PROB, PROD and
+  all CAR* from `<tmpl>/<sp>/build/solute.psf`, leaving PROA (FGFR) + PROC (FGF2) in the
+  crystallographic 1:1 geometry with CHARMM-GUI's modelled loops intact.
+  fgfr1 <- 1fq9 (FGFR1, 211 res), fgfr2 <- 1e0o (FGFR2, 197 res).
+- Re-solvated at 12 Å padding: box 103 Å / ~103.8k atoms (FGFR1), 114 Å / ~141.7k atoms (FGFR2),
+  0.15 M KCl. Carbohydrate dihedral restraints stripped from the NAMD inputs (no heparin).
+- Seeds 30000 + 10000*receptor + 100*species + 10*rep (+1 for production): all 140 inputs unique.
+  NOTE the 2:2:2/2:2:1 runs share seeds across species (build_all.py omits a species term); harmless
+  but worth knowing.
+- Some source systems lacked `sim/namdrep1` or its .inp files (1fq9 human_stab, 1fq9
+  japanese_ricefish, 1e0o zebrafish) and 1e0o/bovine_stab had no `build/` at all; `donor_inputs()`
+  falls back to any replicate of the same template, and 1e0o/bovine_stab was regenerated with
+  `build_all.py 1e0o/bovine_stab`.
+- QC: 0 ring piercings; interface contacts 408–498 (FGFR1) and 211–297 (FGFR2); local NAMD 3.0.2
+  smoke test minimises and runs cleanly.
+- Upload `onetoone/` to the cluster and `bash submit_1to1.sh [fgfr1|fgfr2]`.

@@ -1,0 +1,1 @@
+fgfr1/human_stab: 103830 atoms, box 103 A, segments PROA,PROC, POT 92 CLA 104

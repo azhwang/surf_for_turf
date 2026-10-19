@@ -1,0 +1,1 @@
+fgfr1/human: 103858 atoms, box 103 A, segments PROA,PROC, POT 92 CLA 106
