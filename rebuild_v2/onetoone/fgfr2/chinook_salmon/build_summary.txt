@@ -1,1 +1,1 @@
-fgfr2/chinook_salmon: 141631 atoms, box 114 A, segments PROA,PROC, POT 128 CLA 143
+fgfr2/chinook_salmon: 192136 atoms, box 126 A, segments PROA,PROC, POT 175 CLA 186; loop relaxation freed 57 residues (913 atoms), peptide gaps none, closest loop contact 2.68 A, closest FGFR-FGF contact 2.75 A, ring piercings 0

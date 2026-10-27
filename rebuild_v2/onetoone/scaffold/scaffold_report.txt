@@ -1,0 +1,15 @@
+== fgfr1: host 1EVT chain C 147-359 (191 res), donor 1FQ9 chain C (211 res), host resid = donor resid + 0
+   gap 294-303: N-side 6 res, backbone RMSD 0.31 A; C-side 6 res, backbone RMSD 0.35 A; donor split at 298/299; grafted GLU294 VAL295 ASN296 GLY297 SER298 LYS299 ILE300 GLY301 PRO302 ASP303
+   gap 312-323: N-side 6 res, backbone RMSD 0.35 A; C-side 6 res, backbone RMSD 0.60 A; donor split at 317/318; grafted LYS312 THR313 ALA314 GLY315 VAL316 ASN317 THR318 THR319 ASP320 LYS321 GLU322 MET323
+   stretched C-N: 323-324 1.96 A
+   side chains completed from donor (16): GLU159 LYS160 GLU162 LYS164 LYS172 LYS175 LYS177 ARG189 GLU196 LYS198 LYS207 ARG209 LYS225 GLU235 GLN244 SER251
+   still truncated, left to guesscoord (4): ARG148 LYS195 GLU294 ARG329
+   disulfides: [(178, 230), (277, 341)]
+   wrote /Users/alexanderwang/Desktop/Surf_for_Turf/rebuild_v2/onetoone/scaffold/receptor_fgfr1.pdb: 213 residues 147-359, 1658 heavy atoms
+== fgfr2: host 1DJS chain A 147-362 (206 res), donor 1FQ9 chain C (211 res), host resid = donor resid + 1
+   gap 297-306: N-side 6 res, backbone RMSD 1.74 A; C-side 6 res, backbone RMSD 1.81 A; donor split at 301/302; grafted ASN297 GLY298 SER299 LYS300 TYR301/ILE GLY302 PRO303 ASP304 GLY305/ASN LEU306
+   stretched C-N: 301-302 2.89 A
+   side chains completed from donor (0): none
+   still truncated, left to guesscoord (1): TYR301
+   disulfides: [(179, 231), (278, 342)]
+   wrote /Users/alexanderwang/Desktop/Surf_for_Turf/rebuild_v2/onetoone/scaffold/receptor_fgfr2.pdb: 216 residues 147-362, 1690 heavy atoms

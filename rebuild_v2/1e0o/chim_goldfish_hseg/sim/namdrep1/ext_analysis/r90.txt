@@ -1,0 +1,3 @@
+1e0o/chim_goldfish_hseg/sim/namdrep1  Arg90 residues 466/593  frames 80
+FGF C: heparin 0.9  FGFR-A 0.0  FGFR-B 0.0
+FGF D: heparin 3.9  FGFR-A 0.0  FGFR-B 0.0

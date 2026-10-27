@@ -1,1 +1,1 @@
-fgfr2/japanese_ricefish: 141655 atoms, box 114 A, segments PROA,PROC, POT 128 CLA 145
+fgfr2/japanese_ricefish: 192166 atoms, box 126 A, segments PROA,PROC, POT 175 CLA 188; loop relaxation freed 55 residues (860 atoms), peptide gaps none, closest loop contact 2.70 A, closest FGFR-FGF contact 2.71 A, ring piercings 0

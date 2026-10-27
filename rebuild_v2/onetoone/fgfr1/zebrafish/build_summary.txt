@@ -1,1 +1,1 @@
-fgfr1/zebrafish: 103829 atoms, box 103 A, segments PROA,PROC, POT 92 CLA 106
+fgfr1/zebrafish: 187482 atoms, box 125 A, segments PROA,PROC, POT 171 CLA 186; loop relaxation freed 72 residues (1186 atoms), peptide gaps none, closest loop contact 2.69 A, closest FGFR-FGF contact 2.65 A, ring piercings 0

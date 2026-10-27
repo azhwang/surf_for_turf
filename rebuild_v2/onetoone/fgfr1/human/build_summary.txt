@@ -1,1 +1,1 @@
-fgfr1/human: 103858 atoms, box 103 A, segments PROA,PROC, POT 92 CLA 106
+fgfr1/human: 187492 atoms, box 125 A, segments PROA,PROC, POT 171 CLA 186; loop relaxation freed 86 residues (1393 atoms), peptide gaps none, closest loop contact 2.69 A, closest FGFR-FGF contact 2.71 A, ring piercings 0

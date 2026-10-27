@@ -31,6 +31,22 @@
 !rebuild_v2/*/*/sim/namdrep*/*.inp
 !rebuild_v2/*/*/sim/namdrep*/mmpbsa_v2/split_summary.txt
 
+# --- 1:1 systems built from the 1EVT/1DJS crystals ---
+!rebuild_v2/onetoone/scaffold/*.pdb
+!rebuild_v2/onetoone/scaffold/*.txt
+!rebuild_v2/onetoone/*/*/fgf_PROC.pdb
+!rebuild_v2/onetoone/*/*/core_report.txt
+!rebuild_v2/onetoone/*/*/build_summary.txt
+!rebuild_v2/onetoone/*/*/sim/step3_pbcsetup.str
+!rebuild_v2/onetoone/*/*/sim/namdrep*/*.inp
+!rebuild_v2/build_1to1.log
+
+# --- chimera analysis outputs (pre-registered evidence; ~1.4 MB total) ---
+!rebuild_v2/*/chim_*/sim/namdrep*/ext_analysis/r90.txt
+!rebuild_v2/*/chim_*/sim/namdrep*/ext_analysis/info.txt
+!rebuild_v2/*/chim_*/sim/namdrep*/ext_analysis/*/FINAL_RESULTS_*.dat
+!rebuild_v2/*/chim_*/sim/namdrep*/ext_analysis/*/FINAL_DECOMP_*.dat
+
 # --- exclusions (these win over the whitelist above) ---
 # CHARMM-GUI build trees, scratch/sandbox copies, superseded rebuild
 **/charmm-gui-*/

@@ -1,0 +1,3 @@
+source model: /Users/alexanderwang/Desktop/Surf_for_Turf/all_metrics_analysis/1fq9_zebrafish/charmm-gui-8035871929/step1_pdbreader.pdb (segment PROC, heavy atoms)
+full FGF: 145 residues
+PROC <- template 1DJS chain B: core = model residues 18-144 (127 res; trimmed N 17, C 1); 126 aligned CA, identity 57%, core CA RMSD to template 0.83 A; N-terminal residues anchored: none; 22 conserved interface side chains from crystal: LYS20 TYR23 CYS24 ASN26 PHE30 ARG43 GLN53 LEU54 ALA56 VAL59 GLU61 VAL62 LYS65 GLU95 ARG96 LEU97 ASN100 TYR102 ASN103 PHE138 LEU139 PRO140

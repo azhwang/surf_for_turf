@@ -1,1 +1,1 @@
-fgfr2/goldfish: 141667 atoms, box 114 A, segments PROA,PROC, POT 128 CLA 143
+fgfr2/goldfish: 192100 atoms, box 126 A, segments PROA,PROC, POT 175 CLA 186; loop relaxation freed 61 residues (949 atoms), peptide gaps none, closest loop contact 2.68 A, closest FGFR-FGF contact 2.74 A, ring piercings 0

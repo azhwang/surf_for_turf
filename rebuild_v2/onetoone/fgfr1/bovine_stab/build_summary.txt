@@ -1,1 +1,1 @@
-fgfr1/bovine_stab: 103827 atoms, box 103 A, segments PROA,PROC, POT 92 CLA 104
+fgfr1/bovine_stab: 187539 atoms, box 125 A, segments PROA,PROC, POT 171 CLA 184; loop relaxation freed 84 residues (1361 atoms), peptide gaps none, closest loop contact 2.69 A, closest FGFR-FGF contact 2.74 A, ring piercings 0
