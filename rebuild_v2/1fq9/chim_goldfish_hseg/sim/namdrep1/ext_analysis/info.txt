@@ -1,0 +1,3 @@
+segments: 50 (ext01.dcd .. ext50.dcd)
+site C :525,526,531,535,541  site D :654,655,660,664,670  heparin C :408-415  heparin D :416-421
+FGFR :1-211 :212-407 ; strip :CLA,POT,WAT ; iface1 other :212-407,416-421,551-679 ; iface2 other :1-211,408-415,422-550

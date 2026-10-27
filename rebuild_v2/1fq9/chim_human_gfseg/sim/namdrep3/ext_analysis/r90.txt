@@ -1,0 +1,3 @@
+1fq9/chim_human_gfseg/sim/namdrep3  Arg90 residues 487/616  frames 80
+FGF C: heparin 0.0  FGFR-A 0.0  FGFR-B 0.0
+FGF D: heparin 0.0  FGFR-A 0.0  FGFR-B 0.0
